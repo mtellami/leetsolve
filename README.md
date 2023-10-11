@@ -1,7 +1,3 @@
 # Problem-Solving
-- coding game
-- leet code
-- code war
-- hacker rank
+- Search for most famous problems and solve them with CPP
 
-xclip -sel c < 
