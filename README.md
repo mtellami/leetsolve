@@ -11,7 +11,7 @@
 
 ```
 
-### ​📌​ solve some programming problems
+### ​📌​ solve some coding problems
 
 - Longest Common Subsequence (LCS)
 -  
