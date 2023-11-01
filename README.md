@@ -1,4 +1,5 @@
-# LEETSOLVE
+# LEETSOLVE - Dynamic programming
 
-- Dynamic programming
-- solve some of the famous programming problems
+Solve some of the famous programming problems:
+- Longest Common Subsequence (LCS)
+-  
