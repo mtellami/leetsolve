@@ -5,12 +5,13 @@ ITALIC = '\033[3m'
 CXX = g++
 CXXFLAGS = -Wall -Wextra -Werror
 
-SOURCES = lcs.cpp 
+SOURCES = lcs.cpp \
+					bn.cpp 
 
 TARGETS = $(SOURCES:.cpp=)
 
 default:
-	@echo -e $(GRAY)$(ITALIC)"specifie a programming problem .."$(NONE)
+	@echo -e $(GRAY)$(ITALIC)"specifie a coding problem :"$(NONE)
 	@for target in $(TARGETS); do \
 		echo -e $(GRAY)$(ITALIC)"-" $$target; \
 	done
