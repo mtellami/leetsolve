@@ -6,7 +6,9 @@ CXX = g++
 CXXFLAGS = -Wall -Wextra -Werror
 
 SOURCES = lcs.cpp \
-					bn.cpp 
+					bn.cpp \
+					cc.cpp \
+					cc2.cpp
 
 TARGETS = $(SOURCES:.cpp=)
 

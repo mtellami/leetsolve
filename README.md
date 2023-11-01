@@ -15,4 +15,5 @@
 
 - Longest Common Subsequence (LCS)
 - Bell numbers (BN)
-- 
+- Coin change 1 (CC)
+- Coin change 2 (CC2)
