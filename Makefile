@@ -12,7 +12,8 @@ SOURCES_DIR = src
 SOURCES = lcs.cpp \
 					bn.cpp \
 					cc.cpp \
-					cc2.cpp
+					cc2.cpp \
+					mcp.cpp \
 
 TARGETS = $(SOURCES:.cpp=)
 
