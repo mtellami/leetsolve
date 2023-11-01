@@ -14,4 +14,5 @@
 ### ​📌​ solve some coding problems
 
 - Longest Common Subsequence (LCS)
--  
+- Bell numbers (BN)
+- 
