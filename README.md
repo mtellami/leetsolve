@@ -1,5 +1,17 @@
 # ⚡​ LEETSOLVE - Dynamic programming ⚡​
 
-Solve some of the famous programming problems:
+```console
+
+.__                 __               .__               
+|  |   ____   _____/  |_  __________ |  |___  __ ____  
+|  | _/ __ \_/ __ \   __\/  ___/  _ \|  |\  \/ // __ \ 
+|  |_\  ___/\  ___/|  |  \___ (  <_> )  |_\   /\  ___/ 
+|____/\___  >\___  >__| /____  >____/|____/\_/  \___  >
+          \/     \/          \/                     \/ 
+
+```
+
+### ​📌​ solve some programming problems
+
 - Longest Common Subsequence (LCS)
 -  
