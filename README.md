@@ -1,4 +1,4 @@
-# Problem-Solving
-- Search for most famous problems and solve them with CPP
+# LEETSOLVE
 
-link to most famous problems : <a href="https://www.udemy.com/course/50-problems">Link</a>
+- Dynamic programming
+- solve some of the famous programming problems
