@@ -2,8 +2,12 @@ NONE = '\033[0m'
 GRAY = '\033[2;37m'
 ITALIC = '\033[3m'
 
-CXX = g++
-CXXFLAGS = -Wall -Wextra -Werror
+CPP = g++
+CPPFLAGS = -Wall -Wextra -Werror -fsanitize=address -g3
+RM = rm -rf
+PRINT = echo -e $(GRAY)$(ITALIC)
+
+SOURCES_DIR = src
 
 SOURCES = lcs.cpp \
 					bn.cpp \
@@ -13,19 +17,19 @@ SOURCES = lcs.cpp \
 TARGETS = $(SOURCES:.cpp=)
 
 default:
-	@echo -e $(GRAY)$(ITALIC)"specifie a coding problem :"$(NONE)
+	@$(PRINT)"specifie a coding problem :"$(NONE)
 	@for target in $(TARGETS); do \
-		echo -e $(GRAY)$(ITALIC)"-" $$target; \
+		$(PRINT)"-" $$target; \
 	done
 
 all: $(TARGETS)
 
-%: %.cpp
-	@$(CXX) $(CXXFLAGS) $< -o $@
-	@echo -e $(GRAY)$(ITALIC)"Compiled .."$(NONE)
+%: $(SOURCES_DIR)/%.cpp
+	@$(CPP) $(CPPFLAGS) $< -o $@
+	@$(PRINT)"Compiled .."$(NONE)
 
 clean:
-	@rm -f $(TARGETS)
-	@echo -e $(GRAY)$(ITALIC)"Cleaned .."$(NONE)
+	@$(RM) $(TARGETS)
+	@$(PRINT)"Cleaned .."$(NONE)
 
 .PHONY: all clean default
