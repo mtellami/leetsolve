@@ -1,7 +1,8 @@
 #include "leetsolve.hpp"
 
 int ed(string s1, string s2) {
-
+	(void)s1;
+	(void)s2;
 	return 0;
 }
 
