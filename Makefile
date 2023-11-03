@@ -13,7 +13,7 @@ INCLUDE_DIR = inc
 SOURCES = lcs.cpp bn.cpp cc.cpp\
 					cc2.cpp mcp.cpp fn.cpp\
 					ss.cpp ed.cpp dt.cpp\
-					scs.cpp\
+					scs.cpp \
 
 TARGETS = $(SOURCES:.cpp=)
 
