@@ -10,14 +10,9 @@ PRINT = echo -e $(GRAY)$(ITALIC)
 SOURCES_DIR = src
 INCLUDE_DIR = inc
 
-SOURCES = lcs.cpp \
-					bn.cpp \
-					cc.cpp \
-					cc2.cpp \
-					mcp.cpp \
-					fn.cpp \
-					ss.cpp \
-					ed.cpp \
+SOURCES = lcs.cpp bn.cpp cc.cpp\
+					cc2.cpp mcp.cpp fn.cpp\
+					ss.cpp ed.cpp dt.cpp\
 
 TARGETS = $(SOURCES:.cpp=)
 

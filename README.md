@@ -21,3 +21,4 @@
 - Nth fibonacci number (FN)
 - Subset sum (SS)
 - Edit distance (ED)
+- Dice throw (DT)
