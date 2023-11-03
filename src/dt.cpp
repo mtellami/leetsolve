@@ -1,5 +1,6 @@
 #include "leetsolve.hpp"
 
+// Dynamic programming
 int dt(int m, int n, int x) {
 	vector<vector<int>> table(n + 1, vector<int>(x + 1, 0));
 

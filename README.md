@@ -22,3 +22,4 @@
 - Subset sum (SS)
 - Edit distance (ED)
 - Dice throw (DT)
+- Shortest common supersequence (SCS)
