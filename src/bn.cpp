@@ -1,6 +1,4 @@
-#include <iostream>
-
-using namespace std;
+#include "leetsolve.hpp"
 
 // using bell triangle
 size_t bell_numbers(size_t n) {

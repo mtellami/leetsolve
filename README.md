@@ -18,3 +18,6 @@
 - Coin change 1 (CC)
 - Coin change 2 (CC2)
 - Min cost path (MCP)
+- Nth fibonacci number (FN)
+- Subset sum (SS)
+- Edit distance (ED)

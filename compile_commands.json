@@ -1,0 +1,121 @@
+[
+ {
+  "directory": "/home/mtellami/Dev/leetsolve",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-fsanitize=address",
+   "-g3",
+   "-I",
+   "inc",
+   "src/ss.cpp",
+   "-o",
+   "ss"
+  ],
+  "file": "src/ss.cpp"
+ },
+ {
+  "directory": "/home/mtellami/Dev/leetsolve",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-fsanitize=address",
+   "-g3",
+   "-I",
+   "inc",
+   "src/lcs.cpp",
+   "-o",
+   "lcs"
+  ],
+  "file": "src/lcs.cpp"
+ },
+ {
+  "directory": "/home/mtellami/Dev/leetsolve",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-fsanitize=address",
+   "-g3",
+   "-I",
+   "inc",
+   "src/bn.cpp",
+   "-o",
+   "bn"
+  ],
+  "file": "src/bn.cpp"
+ },
+ {
+  "directory": "/home/mtellami/Dev/leetsolve",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-fsanitize=address",
+   "-g3",
+   "-I",
+   "inc",
+   "src/cc.cpp",
+   "-o",
+   "cc"
+  ],
+  "file": "src/cc.cpp"
+ },
+ {
+  "directory": "/home/mtellami/Dev/leetsolve",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-fsanitize=address",
+   "-g3",
+   "-I",
+   "inc",
+   "src/cc2.cpp",
+   "-o",
+   "cc2"
+  ],
+  "file": "src/cc2.cpp"
+ },
+ {
+  "directory": "/home/mtellami/Dev/leetsolve",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-fsanitize=address",
+   "-g3",
+   "-I",
+   "inc",
+   "src/mcp.cpp",
+   "-o",
+   "mcp"
+  ],
+  "file": "src/mcp.cpp"
+ },
+ {
+  "directory": "/home/mtellami/Dev/leetsolve",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-fsanitize=address",
+   "-g3",
+   "-I",
+   "inc",
+   "src/fn.cpp",
+   "-o",
+   "fn"
+  ],
+  "file": "src/fn.cpp"
+ }
+]

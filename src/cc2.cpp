@@ -1,7 +1,4 @@
-#include <iostream>
-#include <vector>
-
-using namespace std;
+#include "leetsolve.hpp"
 
 int count(int amount, vector<int> coins, int size) {
 	if (!amount) return 1;

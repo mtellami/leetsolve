@@ -1,8 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <limits.h>
-
-using namespace std;
+#include "leetsolve.hpp"
 
 int mcp(vector<vector<int>> costs) {
 	vector<vector<int>> res(costs.size(), vector<int>(costs.begin()->size(), 0));

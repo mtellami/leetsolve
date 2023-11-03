@@ -1,6 +1,4 @@
-#include <iostream>
-
-using namespace std;
+#include "leetsolve.hpp"
 
 size_t lcs(string s1, string s2, size_t len1, size_t len2) {
   if (!len1 || !len2)
