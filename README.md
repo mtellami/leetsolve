@@ -72,7 +72,22 @@ int coins[] = {1, 2, 3};
 <hr/>
 
 ### 🔷 Min cost path (MCP)
+Given a 2D matrix where each cell has a cost to travel. You have to write an algorithm to find a path from the left-top corner to the bottom-right corner with minimum travel cost. You can move only right or down.
+```c++
+int cost[][];
+cost = {
+    {1, 2, 3},
+    {4, 8, 2},
+    {1, 5, 3}
+};
 
+// Minimum travel cost path: 11
+```
+#### Real-world application 💡
+- Shortest Path in Navigation: In GPS navigation systems, finding the path with the minimum travel time or cost between two locations.
+- Robotics: In robotics, robots use this problem to navigate through environments with obstacles, choosing paths with the lowest energy consumption or time.
+- Network Routing: In network routing, finding the path with the minimum latency or cost to transmit data between two points in a network.
+<hr/>
 
 ### 🔷 Nth fibonacci number (FN)
 

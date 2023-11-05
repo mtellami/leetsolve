@@ -1,5 +1,6 @@
 #include "leetsolve.hpp"
 
+// Dynamic programming
 int mcp(vector<vector<int>> costs) {
 	vector<vector<int>> res(costs.size(), vector<int>(costs.begin()->size(), 0));
 
@@ -14,7 +15,7 @@ int mcp(vector<vector<int>> costs) {
 	}
 
 	for (int i = 1; i < (int)costs.size(); i++) {
-		for (int j = 1; j < (int)costs[i].size(); j++) {
+		for (int j = 1; j < (int)costs.at(i).size(); j++) {
 			res[i][j] = costs[i][j] + min(res[i - 1][j], res[i][j - 1]);
 		}
 	}
