@@ -46,7 +46,7 @@ Bell numbers have applications in various real-world scenarios, particularly in 
 <hr/>
 
 ### 🔷 Coin change 1 (CC)
-The "Coin Change I" problem, often referred to as "Coin Change (Count the Ways)," is a classic algorithmic problem in computer science. In this problem, you are given a set of coin denominations and a target amount of money. The goal is to find the total number of distinct ways to make up the target amount using the given coin denominations. You can use each coin an unlimited number of times.
+The Coin Change I problem, often referred to as "Coin Change (Count the Ways)," you are given a set of coin denominations and a target amount of money. The goal is to find the total number of distinct ways to make up the target amount using the given coin denominations. You can use each coin an unlimited number of times.
 ```c++
 int amount = 50;
 int coins[] = {1, 2, 3, 4, 5};
@@ -59,6 +59,17 @@ int coins[] = {1, 2, 3, 4, 5};
 <hr/>
 
 ### 🔷 Coin change 2 (CC2)
+In this problem, you are given a set of coin denominations and a target amount of money. The goal is to find the number of combinations that make up that amount.
+```c++
+int amount = 5;
+int coins[] = {1, 2, 3};
+
+// The number of combinations that make up the amount: 5
+```
+#### Real-world application 💡
+- ATMs: ATMs, when dispensing cash, aim to minimize the number of bills and coins provided to the customer. The Coin Change II problem is used to find the most efficient way to dispense the requested amount.
+- Currency Exchange: In foreign currency exchange, the problem can be applied to determine the minimum number of coins and banknotes needed to provide a specific amount in the local currency.
+<hr/>
 
 ### 🔷 Min cost path (MCP)
 
