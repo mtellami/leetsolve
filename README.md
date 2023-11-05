@@ -29,6 +29,7 @@ LCS is used in a variety of contexts, such as:
 - Bioinformatics: Comparing DNA sequences to identify similarities between different species or within a species.
 - Text comparison: Comparing and contrasting different editions of a manuscript or different drafts of a document, allowing editors and authors to track changes and revisions.
 - Version control systems: Tools like Git use LCS algorithms to identify and merge changes made in different branches of a codebase.
+<hr/>
 
 ### 🔷 Bell numbers (BN)
 
