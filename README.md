@@ -1,7 +1,6 @@
 <div align="center">
 
 # ⚡​ LEETSOLVE - Dynamic programming ⚡​
-</div>
 
 ```console
 
@@ -13,6 +12,7 @@
           \/     \/          \/                     \/ 
 
 ```
+</div>
 
 ## ​📌​ solve some coding problems 👨🏾‍💻​
 
