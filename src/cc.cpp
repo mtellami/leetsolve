@@ -1,5 +1,6 @@
 #include "leetsolve.hpp"
 
+// Dynamic programming
 int cc(int amount, vector<int> coins) {
 	int size = coins.size();
 	vector<int> dp(amount + 1, INT_MAX);

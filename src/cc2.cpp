@@ -1,5 +1,6 @@
 #include "leetsolve.hpp"
 
+// Brute force recursion
 int count(int amount, vector<int> coins, int size) {
 	if (!amount) return 1;
 	if (amount < 0 || size <= 0) return 0;
