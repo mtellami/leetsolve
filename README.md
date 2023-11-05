@@ -16,10 +16,10 @@
 ### 🔷 Longest Common Subsequence (LCS)
 The longest common subsequence is defined as the longest subsequence that is common to all the given sequences, provided that the elements of the subsequence are not required to occupy consecutive positions within the original sequences.
 ```c++
-string s1 = "bcdaacd";
-string s2 = "acdbac";
+string s1 = "BCDAACD";
+string s2 = "ACDBAC";
 
-// Longest common subsequence: 'cdac'
+// Longest common subsequence: 'CDAC'
 ```
 
 - Bell numbers (BN)
