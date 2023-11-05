@@ -32,6 +32,18 @@ LCS is used in a variety of contexts, such as:
 <hr/>
 
 ### 🔷 Bell numbers (BN)
+The Bell Number problem is a combinatorial problem that involves calculating the Bell numbers, denoted as B(n). The Bell numbers count the number of distinct partitions of a set of n elements into non-empty subsets.
+```c++
+int setSize = 3;
+
+// Number of possible subsets: 5
+```
+#### Real-world application 💡
+Bell numbers have applications in various real-world scenarios, particularly in combinatorial and counting problems:
+- Bell numbers are often used to solve combinatorial problems, such as counting the number of ways to arrange objects, distribute items into categories, or partition a set into subsets. These problems can arise in scheduling, resource allocation, and other logistical scenarios.
+- The Bell numbers can help determine the number of possible ways to connect devices or components in the network. This information is valuable for optimizing network performance and reliability.
+- In certain cryptographic algorithms, the Bell numbers can be used to calculate the number of possible keys or key combinations. This is important for understanding the security of a cryptographic system and the potential vulnerability to attacks.
+<hr/>
 
 ### 🔷 Coin change 1 (CC)
 
