@@ -21,8 +21,15 @@ string s2 = "ACDBAC";
 
 // Longest common subsequence: 'CDAC'
 ```
+#### Real-world application
+LCS is used in a variety of contexts, such as:
+- Bioinformatics: Comparing DNA sequences to identify similarities between different species or within a species.
+- Text comparison: Comparing and contrasting different editions of a manuscript or different drafts of a document, allowing editors and authors to track changes and revisions.
+- Version control systems: Tools like Git use LCS algorithms to identify and merge changes made in different branches of a codebase.
 
-- Bell numbers (BN)
+### 🔷 Bell numbers (BN)
+
+
 - Coin change 1 (CC)
 - Coin change 2 (CC2)
 - Min cost path (MCP)
