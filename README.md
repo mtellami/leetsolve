@@ -1,4 +1,7 @@
+<div align="center">
+
 # ⚡​ LEETSOLVE - Dynamic programming ⚡​
+</div>
 
 ```console
 
