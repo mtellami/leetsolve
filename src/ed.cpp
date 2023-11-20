@@ -17,7 +17,7 @@ int ed(string s1, string s2, size_t m, size_t n) {
 }
 
 int main () {
-	string s1("hello");
+	string s1("helho");
 	string s2("elhell");
 
 	int result = ed(s1, s2, s1.length(), s2.length());

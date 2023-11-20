@@ -20,9 +20,11 @@ int dt(int m, int n, int x) {
 } 
 
 int main () {
-	int result = dt(4, 2, 1);
+	int m = 4, n = 3, x = 5;
 
-	cout << result << endl;
+	int result = dt(m, n, x);
+
+	cout << "The number of ways to get sum " << x << ": "<< result << endl;
 
 	return EXIT_SUCCESS;
 }

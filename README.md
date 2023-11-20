@@ -104,10 +104,45 @@ int number = 9;
 <hr/>
 
 ### 🔷 Subset sum (SS)
+Given a set of non-negative integers and a value sum, the task is to check if there is a subset of the given set whose sum is equal to the given sum. 
+```c++
+int set[] = {3, 5, 2, 9, 4}
+int number = 9;
+
+// true
+// There is a subset
+```
+#### Real-world application 💡
+- Cryptographic Algorithms: Subset sum problems serve as the basis for cryptographic techniques like the Merkle-Hellman knapsack cryptosystem, which relies on the difficulty of solving the subset sum problem to encrypt and decrypt data securely.
+- Machine Learning: Feature selection in machine learning involves finding the best subset of features that contribute most significantly to predicting outcomes, akin to solving a subset sum problem within a vast space of potential feature combinations.
+- Networking and Telecommunications: Routing algorithms might utilize subset sum-like calculations to determine the most efficient path or combination of paths for data packets to travel through a network.
+<hr/>
 
 ### 🔷 Edit distance (ED)
+Given two strings str1 and str2 of length M and N respectively and below operations that can be performed on str1. Find the minimum number of edits (operations) to convert ‘str1‘ into ‘str2‘.  
+```c++
+string str1 = "helho";
+string str2 = "elhell";
+
+// Number of moves : 4
+// Remove 'e', Remove 'l', Replace 'h', Insert 'o'
+```
+
+#### Real-world application 💡
+- Spell Checkers and Autocorrect: In text processing applications, edit distance helps identify and suggest corrections for misspelled words by finding the closest match based on the minimum number of edits needed.
+- Plagiarism Detection: Edit distance algorithms can assist in determining the similarity between documents or pieces of text. Plagiarism detection systems use this to identify instances of copied content with slight modifications.
+- Speech Recognition: In speech processing, edit distance algorithms are used to recognize spoken words by matching them to a database of known words, considering variations due to pronunciation or errors.
+<hr/>
 
 ### 🔷 Dice throw (DT)
+Given n dice each with m faces, numbered from 1 to m, find the number of ways to get sum X. X is the summation of values on each face when all the dice are thrown.
+```c++
+int m = 4; // number of dices
+int n = 3; // dice faces
+int x = 5; // Sum
+
+// Possible Combinations: 6 
+```
 
 ### 🔷 Shortest common supersequence (SCS)
 
