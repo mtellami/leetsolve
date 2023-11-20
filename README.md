@@ -74,11 +74,10 @@ int coins[] = {1, 2, 3};
 ### 🔷 Min cost path (MCP)
 Given a 2D matrix where each cell has a cost to travel. You have to write an algorithm to find a path from the left-top corner to the bottom-right corner with minimum travel cost. You can move only right or down.
 ```c++
-int cost[][];
-cost = {
-    {1, 2, 3},
-    {4, 8, 2},
-    {1, 5, 3}
+int cost[][] = {
+  {1, 2, 3},
+  {4, 8, 2},
+  {1, 5, 3}
 };
 
 // Minimum travel cost path: 11
@@ -90,6 +89,17 @@ cost = {
 <hr/>
 
 ### 🔷 Nth fibonacci number (FN)
+In mathematical terms, the sequence Fn of Fibonacci numbers is defined by the recurrence relation: ```F_{n} = F_{n-1} + F_{n-2}``` with seed values and ```F_0 = 0``` and ```F_1 = 1```.
+```c++
+int number = 9;
+
+// Nth Fibonacci number: 34
+```
+#### Real-world application 💡
+- Nature's Design: The Fibonacci sequence is often seen in the arrangement of leaves on a stem, the spiral of a pinecone, the curve of a nautilus shell, or the pattern of seeds in a sunflower head. These examples follow Fibonacci ratios, known as the "golden ratio," which often leads to efficient packing and growth patterns.
+- Computer Science: Fibonacci numbers are used in algorithms for tasks like generating pseudo-random numbers, optimizing data structures, and in various dynamic programming problems due to their recursive nature.
+- Finance and Trading: Financial markets sometimes exhibit patterns related to Fibonacci numbers. Traders use Fibonacci retracement levels to identify potential levels of support and resistance for asset prices, helping in making investment decisions.
+<hr/>
 
 ### 🔷 Subset sum (SS)
 
