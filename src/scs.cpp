@@ -19,6 +19,7 @@ int main () {
 	string s2("hello");
 
 	int result = scs(s1, s2, s1.length(), s2.length());
+
 	cout << "length of the shortest supersequence is: ";
 	cout << result << endl;
 

@@ -143,6 +143,25 @@ int x = 5; // Sum
 
 // Possible Combinations: 6 
 ```
+#### Real-world application 💡
+- Probability and Statistics: Understanding the probabilities of different outcomes in games of chance (like board games, casino games) heavily relies on dice throw calculations. It's also fundamental in statistical modeling where random events play a role.
+- Game Design and AI: In game development, simulating dice throws might be a part of game mechanics. AI systems within games may use similar probability calculations to make decisions or simulate random events.
+- Cryptographic Algorithms: Generating random numbers or sequences is critical in cryptography. Techniques inspired by dice throw problems aid in creating pseudo-random number generators for encryption purposes.
+<hr/>
 
 ### 🔷 Shortest common supersequence (SCS)
+Given two strings str1 and str2, the task is to find the length of the shortest string that has both str1 and str2 as subsequences.
+```c++
+string str2 = "hello";
+string str1 = "eel";
+
+// The Shortest Common Supersequence: 6
+// the string "heello" has both strings 'eel' and 'hello' as subsequences.
+```
+
+#### Real-world application 💡
+- Version Control Systems: In version control systems like Git, the SCS problem is analogous to identifying the changes made between two versions of a file. The system needs to find the shortest sequence of edits (additions, deletions, modifications) required to transform one version of a file into another.
+- Data Compression: Compression algorithms use SCS to identify repeated patterns within data. By finding the shortest common supersequence, compression algorithms can represent the data more efficiently by referencing these patterns rather than storing them multiple times.
+- Computer Networking: In networking protocols, such as TCP/IP, sequences of data packets need to be synchronized or reassembled correctly at the receiving end. Finding the shortest common supersequence helps in efficiently reconstructing the original sequence from fragmented packets.
+<hr/>
 
