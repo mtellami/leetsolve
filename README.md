@@ -93,6 +93,8 @@ In mathematical terms, the sequence Fn of Fibonacci numbers is defined by the re
 ```c++
 int number = 9;
 
+// 0 1 1 2 3 5 8 13 21 34
+
 // Nth Fibonacci number: 34
 ```
 #### Real-world application 💡
